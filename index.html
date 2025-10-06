@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MH.One Cipher by 0xbahari</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>MH.One Cipher</h1>
+        <p>Encrypt or decrypt text using the unique MH.One algorithm!</p>
+        <textarea id="textInput" placeholder="Enter your text here..."></textarea>
+        <input type="text" id="keyInput" placeholder="Enter key (leave empty to generate)">
+        <button onclick="encryptText()">Encrypt</button>
+        <button onclick="decryptText()">Decrypt</button>
+        <p id="output"></p>
+        <p id="generatedKey"></p>
+    </div>
+    <footer>Created by <a href="https://github.com/0xbahari">0xbahari</a></footer>
+    <script src="script.js"></script>
+</body>
+</html>
